@@ -1,13 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%  My documentation report
-%  Objective: Explain what I did and how, in order to help someone continue with the investigation
-%
-% Important note:
 % Chapter heading images should have a 2:1 width:height ratio,
 % e.g. 920px width and 460px height.
-%
-% The images can be found anywhere, usually on sky surveys websites or the
-% Astronomy Picture of the day archive http://apod.nasa.gov/apod/archivepix.html
 %
 % The original template (the Legrand Orange Book Template) can be found here --> http://www.latextemplates.com/template/the-legrand-orange-book
 %
@@ -22,7 +15,6 @@
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
-
 \documentclass[11pt,fleqn]{book}                                                          % Default font size and left-justified equations
 \usepackage[top=3cm,bottom=3cm,left=3.2cm,right=3.2cm,headsep=10pt,letterpaper]{geometry} % Page margins
 \usepackage{xcolor}                                                                       % Required for specifying colors by name
@@ -34,11 +26,6 @@
 \usepackage[utf8]{inputenc} % Required for including letters with accents
 \usepackage[T1]{fontenc}    % Use 8-bit encoding that has 256 glyphs
 
-% Bibliography
-\usepackage[style=alphabetic,sorting=nyt,sortcites=true,autopunct=true,babel=hyphen,hyperref=true,abbreviate=false,backref=true,backend=biber]{biblatex}
-\addbibresource{bibliography.bib} 
-\defbibheading{bibempty}{}
-
 \input{structure}   % Insert the commands.tex file which contains the majority of the structure behind the template
 
 \begin{document}
@@ -47,7 +34,6 @@
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
-
 \begingroup
 \thispagestyle{empty}
 \AddToShipoutPicture*{\put(0,0){\includegraphics[scale=1.25]{esahubble}}} % Image background
@@ -85,7 +71,82 @@
 %----------------------------------------------------------------------------------------
 %	CHAPTERS
 %----------------------------------------------------------------------------------------
-\input{example.tex}
+\input{latex_examples.tex}
+\input{student_example.tex}
+%\input{al417991.tex}
+%\input{al415406.tex}
+%\input{al416708.tex}
+%\input{al415434.tex}
+%\input{al416752.tex}
+%\input{al405280.tex}
+%\input{al415442.tex}
+%\input{al405810.tex}
+%\input{al388909.tex}
+%\input{al415433.tex}
+%\input{al416634.tex}
+%\input{al415435.tex}
+%\input{al405414.tex}
+%\input{al408758.tex}
+%\input{al415443.tex}
+%\input{al415384.tex}
+%\input{al417032.tex}
+%\input{al416637.tex}
+%\input{al415888.tex}
+%\input{al415383.tex}
+%\input{al416692.tex}
+%\input{al416484.tex}
+%\input{al415411.tex}
+%\input{al416685.tex}
+%\input{al415410.tex}
+%\input{al416129.tex}
+%\input{al415426.tex}
+%\input{al415652.tex}
+%\input{al417655.tex}
+%\input{al416218.tex}
+%\input{al415469.tex}
+%\input{al415421.tex}
+%\input{al415389.tex}
+%\input{al416494.tex}
+%\input{al415739.tex}
+%\input{al415418.tex}
+%\input{al415459.tex}
+%\input{al415428.tex}
+%\input{al415440.tex}
+%\input{al416740.tex}
+%\input{al416577.tex}
+%\input{al417613.tex}
+%\input{al404333.tex}
+%\input{al385767.tex}
+%\input{al415441.tex}
+%\input{al415395.tex}
+%\input{al416676.tex}
+%\input{al415423.tex}
+%\input{al416462.tex}
+%\input{al415398.tex}
+%\input{al416812.tex}
+%\input{al416902.tex}
+%\input{al404737.tex}
+%\input{al405186.tex}
+%\input{al406523.tex}
+%\input{al415386.tex}
+%\input{al415381.tex}
+%\input{al416458.tex}
+%\input{al416643.tex}
+%\input{al417612.tex}
+%\input{al416753.tex}
+%\input{al416089.tex}
+%\input{al415404.tex}
+%\input{al418368.tex}
+%\input{al375902.tex}
+%\input{al415438.tex}
+%\input{al404632.tex}
+
+
+%% ----------------------------------------------------
+%% ----------------------------------------------------
+\bibliographystyle{plain}
+\bibliography{bibliography.bib}
+
 
 %----------------------------------------------------------------------------------------
 % End document
